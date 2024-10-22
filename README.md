@@ -4,6 +4,7 @@ A comprehensive banking application that includes three modules: Client, Employe
 **Modules:**
 
 - **1. Client Module**
+  
 **Attributes:** Each client has an id, name, password, and balance.
 **Functionality:**
 - Log in using ID and password.
@@ -13,6 +14,7 @@ A comprehensive banking application that includes three modules: Client, Employe
 - Transfer money to another client.
 --------------------------------------------------------------------------------------
 **2. Employee Module**
+
 **Attributes:** Each employee has a name, id, password, and salary.
 **Functionality:**
 - Log in using ID and password.
@@ -23,6 +25,7 @@ A comprehensive banking application that includes three modules: Client, Employe
 - Display personal information.
 --------------------------------------------------------------------------------------
 **3. Admin Module**
+
 **Functionality:** Similar to the Employee module with additional capabilities.
 - Add new employees.
 - Search for employees.
