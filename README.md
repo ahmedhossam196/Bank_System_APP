@@ -3,9 +3,9 @@ A comprehensive banking application that includes three modules: Client, Employe
 
 **Modules:**
 
-- **1. Client Module**
+**1. Client Module**
   
-  **Attributes:** Each client has an id, name, password, and balance.
+**Attributes:** Each client has an id, name, password, and balance.
 **Functionality:**
 - Log in using ID and password.
 - Deposit money.
