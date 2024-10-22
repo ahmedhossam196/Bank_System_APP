@@ -12,17 +12,26 @@ using namespace std;
 
 class Screens {
 private:
-    static void bankName() {
-        cout << "El Mazra3a";
-    }
+   static void bankName() {
+		cout << "\t\t@@       @@   @@@@@@@      #######   ########  ####     ##  ##   ##\n";
+		cout << "\t\t@@   @   @@   @@           ##    ##  ##    ##  ## ##    ##  ##  ##\n";
+		cout << "\t\t@@  @@@  @@   @@@@@@@      #######   ########  ##  ##   ##  ## #\n";
+		cout << "\t\t@@ @@ @@ @@   @@           ##    ##  ##    ##  ##   ##  ##  ##  ##\n";
+		cout << "\t\t@@@     @@@   @@@@@@@      #######   ##    ##  ##    ####   ##   ##\n";
+	}
 
 
-    static void welcome() {
-        cout << "Welcome To ";
-        bankName();
-        Sleep(3000);  // Pause for a few seconds
-        system("cls");  // Clear the screen
-    }
+ static void welcome() {
+		system("Color 3f");
+		cout << "\t    ##       ##   #######   ##      #######  ########    ####    ####   #######\n";
+		cout << "\t    ##   #   ##   ##        ##      ##       ##    ##    ##  #  #  ##   ##\n";
+		cout << "\t    ##  ###  ##   ######    ##      ##       ##    ##    ##   ##   ##   #######\n";
+		cout << "\t    ## ## ## ##   ##        ##      ##       ##    ##    ##        ##   ##\n";
+		cout << "\t    ###     ###   #######   ######  #######  ########    ##        ##   #######\n\n\n";
+		bankName();
+		Sleep(3000);
+		system("cls");
+		system("Color 0f");
 
     static void loginOptions() {
         cout << "1- Admin" << endl;
