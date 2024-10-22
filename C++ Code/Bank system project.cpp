@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 #include "Person.h"
 #include "Employee.h"
 #include "Client.h"
@@ -10,6 +9,7 @@ using namespace std;
 #include "Parser.h"
 #include "Screens.h"
 
+using namespace std;
 
 int main()
 {
